@@ -1,0 +1,50 @@
+# Artjoms-Cereuho-9.e
+work1
+#include<iostream>
+using namespace std;
+string username, password;
+password = "1234";
+username = "people";
+string a = "good,funny,shy";
+string username1, password1;
+cout << "-------------------------------------" << endl << "Username: ";
+cin >> username1;
+
+cout << endl << "Password: ";
+
+cin >> password1;
+
+cout << "-------------------------------------" << endl;
+
+if (username1 == username && password1 == password)
+
+{
+
+	cout << a;
+
+}
+
+else {
+	cout << "Invalid inputs";
+
+//int main() {
+//
+//	int age = 0;
+//	int height = 0;
+//	int avg_mark = 0;
+//	bool b = false;
+//	cout << "Enter ur age:" << endl;
+//	cin >> age;
+//	if (age > 0 && age <= 100) { cout << "Okay" << endl; }
+//	else { cout << "Unrealistic age" << endl; }
+//	cout << "Enter ur height (cm):" << endl;
+//	cin >> height;
+//	if (height > 130 && height <= 240) { cout << "Okay" << endl; }
+//	else { cout << "Unrealistic height" << endl; }
+//	cout << "Enter ur avarage mark:" << endl;
+//	cin >> avg_mark;
+//	if (avg_mark > 0 && avg_mark <= 10) { cout << "Okay" << endl; }
+//	else { cout << "Unrealistic mark" << endl; }
+//	cout << "Exit";
+
+}
